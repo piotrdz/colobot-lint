@@ -31,10 +31,6 @@ class BlockPlacementRuleTest(test_support.TestBase):
                 '}'
             ],
             expected_errors = [
-                {
-                    'msg': 'Body of declaration or statement begins in a style that is not allowed',
-                    'line': '1'
-                }
             ])
 
     def test_other_declaration_just_before_closing_namespace_brace(self):
